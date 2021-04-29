@@ -1,0 +1,8 @@
+numpy
+sklearn ==0.21.3
+requests
+flask
+gunicorn
+pylint
+matplotlib
+pandas

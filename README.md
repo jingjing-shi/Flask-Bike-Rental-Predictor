@@ -2,8 +2,9 @@
 
 ### This is a repo for Duke MIDS cloud computing course final project.
 
-This project is to build a build a containerized machine learning prediction model and deploy it in Google Cloud Platform. The data in this project is from Kaggle, [check out the competition here.](https://www.kaggle.com/c/bike-sharing-demand)
+This project is to build a build a containerized machine learning prediction model and deploy it in Google Cloud Platform. The data used in this project is from Kaggle, [check out the competition here.](https://www.kaggle.com/c/bike-sharing-demand)
 
+![App GUI](https://user-images.githubusercontent.com/56423760/116678129-9359cd00-a9db-11eb-83c6-7c2f777ae200.png)
 ### Data Description
 
 | Variable   | Type                                                                                                                                                                                                                                                           |
@@ -100,7 +101,7 @@ make install
 python main.py 
 ```
 
-6. Deploy the app and now you will be able to access it [here] (https://bike-rental-312210.ue.r.appspot.com)
+6. Deploy the app and now you will be able to access it [here](https://bike-rental-312210.ue.r.appspot.com)
 
 ```
 gcloud app deploy
@@ -113,6 +114,7 @@ gcloud app deploy
 * Set up the cloudbuild.yaml file
 * Now you will able to track code changes in this repo from the build triggers page
 
+![Example of Continuour Delivery Page](https://user-images.githubusercontent.com/56423760/116678445-e59aee00-a9db-11eb-91b0-3518f19feed8.png)
 ### Load Testing
 
 *Tested with Locust

@@ -1,8 +1,9 @@
 numpy
-sklearn ==0.21.3
+xgboost 
 requests
 flask
 gunicorn
 pylint
 matplotlib
 pandas
+sklearn

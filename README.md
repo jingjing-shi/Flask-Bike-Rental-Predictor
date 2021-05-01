@@ -117,7 +117,7 @@ gcloud app deploy
 ![Example of Continuour Delivery Page](https://user-images.githubusercontent.com/56423760/116678445-e59aee00-a9db-11eb-91b0-3518f19feed8.png)
 ### Load Testing
 
-*Tested with Locust
+*Tested with Locust*
 
 ```
 
@@ -145,3 +145,7 @@ class QuickstartUser(HttpUser):
         "hour":"20"})
 
 ```
+
+![Load Test Result](https://user-images.githubusercontent.com/56423760/116766855-47506c00-aa5f-11eb-96eb-ff0039ca2e60.png)
+
+*I think this result will be higher if we don't have to access GCP server via a VPN*
